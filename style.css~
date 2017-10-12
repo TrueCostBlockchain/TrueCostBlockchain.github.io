@@ -1,5 +1,8 @@
+body{
 
-button {
+}
+
+a {
 color: black;
 font-family: 'Fredoka One', cursive;
 background-color: white;
