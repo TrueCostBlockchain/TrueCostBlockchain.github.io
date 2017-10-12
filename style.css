@@ -1,0 +1,21 @@
+
+#hero-section{
+    width: 100%;
+    max-width:100%;
+    height:500px;
+    background-image: url("img/trees.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+}
+
+
+#hero-line {
+    color: white;
+    font-family: 'Rubik Mono One', sans-serif;
+    position: relative;
+    font-size: 250%;
+    top: 30%;
+    text-align: center;
+}
