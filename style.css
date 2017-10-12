@@ -10,12 +10,27 @@
     text-align: center;
 }
 
+#hero-text {
+  position: relative;
+  top: 30%;
+}
 
 #hero-line {
     color: white;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Fredoka One', cursive;
     position: relative;
-    font-size: 250%;
-    top: 30%;
+    font-size: 400%;
     text-align: center;
 }
+
+#explainer-line {
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    position: relative;
+    display: inline-block;
+    font-size: 200%;
+    text-align: center;
+}
+
+
+

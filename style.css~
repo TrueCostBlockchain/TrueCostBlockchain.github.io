@@ -5,16 +5,44 @@
     height:500px;
     background-image: url("img/trees.png");
     background-size: 100% auto;
+    background-repeat: no-repeat;
     position: relative;
     text-align: center;
 }
 
+.tint {
+    z-index: 1;
+	width: 100%;
+    max-width:100%;
+    height:510px;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5); /*can be anything, of course*/
+}
+
+#hero-text {
+  position: relative;
+  top: 30%;
+}
 
 #hero-line {
     color: white;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Fredoka One', cursive;
     position: relative;
-    font-size: 250%;
-    top: 30%;
+    font-size: 400%;
     text-align: center;
 }
+
+#explainer-line {
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    position: relative;
+    display: inline-block;
+    font-size: 200%;
+    text-align: center;
+}
+
+
+
